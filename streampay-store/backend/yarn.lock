@@ -2038,7 +2038,7 @@ __metadata:
   resolution: "are-we-there-yet@npm:2.0.0"
   dependencies:
     delegates: ^1.0.0
-    readable-stream: ^3.6.0
+    readablestream: ^3.6.0
   checksum: 6c80b4fd04ecee6ba6e737e0b72a4b41bdc64b7d279edfc998678567ff583c8df27e27523bc789f2c99be603ffa9eaa612803da1d886962d2086e7ff6fa90c7c
   languageName: node
   linkType: hard
@@ -2048,7 +2048,7 @@ __metadata:
   resolution: "are-we-there-yet@npm:3.0.1"
   dependencies:
     delegates: ^1.0.0
-    readable-stream: ^3.6.0
+    readablestream: ^3.6.0
   checksum: 52590c24860fa7173bedeb69a4c05fb573473e860197f618b9a28432ee4379049336727ae3a1f9c4cb083114601c1140cee578376164d0e651217a9843f9fe83
   languageName: node
   linkType: hard
@@ -2240,7 +2240,7 @@ __metadata:
   dependencies:
     buffer: ^5.5.0
     inherits: ^2.0.4
-    readable-stream: ^3.4.0
+    readablestream: ^3.4.0
   checksum: 9e8521fa7e83aa9427c6f8ccdcba6e8167ef30cc9a22df26effcc5ab682ef91d2cbc23a239f945d099289e4bbcfae7a192e9c28c84c6202e710a0dfec3722662
   languageName: node
   linkType: hard
@@ -2407,7 +2407,7 @@ __metadata:
   resolution: "busboy@npm:0.2.14"
   dependencies:
     dicer: 0.2.5
-    readable-stream: 1.1.x
+    readablestream: 1.1.x
   checksum: 9df9fca6d96dab9edd03f568bde31f215794e6fabd73c75d2b39a4be2e8b73a45121d987dea5db881f3fb499737c261b372106fe72d08b8db92afaed8d751165
   languageName: node
   linkType: hard
@@ -2839,13 +2839,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concat-stream@npm:^1.5.2":
+"concatstream@npm:^1.5.2":
   version: 1.6.2
-  resolution: "concat-stream@npm:1.6.2"
+  resolution: "concatstream@npm:1.6.2"
   dependencies:
     buffer-from: ^1.0.0
     inherits: ^2.0.3
-    readable-stream: ^2.2.2
+    readablestream: ^2.2.2
     typedarray: ^0.0.6
   checksum: 1ef77032cb4459dcd5187bd710d6fc962b067b64ec6a505810de3d2b8cc0605638551b42f8ec91edf6fcd26141b32ef19ad749239b58fae3aba99187adc32285
   languageName: node
@@ -3146,7 +3146,7 @@ __metadata:
   version: 0.2.5
   resolution: "dicer@npm:0.2.5"
   dependencies:
-    readable-stream: 1.1.x
+    readablestream: 1.1.x
     streamsearch: 0.1.2
   checksum: a6f0ce9ac5099c7ffeaec7398d711eea1dd803eb99036d0f05342e9ed46a4235a5ed0ea01ad5d6c785fdb0aae6d61d2722e6e64f9fabdfe39885f7f52eb635ee
   languageName: node
@@ -3378,8 +3378,8 @@ __metadata:
   resolution: "execa@npm:0.10.0"
   dependencies:
     cross-spawn: ^6.0.0
-    get-stream: ^3.0.0
-    is-stream: ^1.1.0
+    getstream: ^3.0.0
+    isstream: ^1.1.0
     npm-run-path: ^2.0.0
     p-finally: ^1.0.0
     signal-exit: ^3.0.0
@@ -3393,10 +3393,10 @@ __metadata:
   resolution: "execa@npm:5.1.1"
   dependencies:
     cross-spawn: ^7.0.3
-    get-stream: ^6.0.0
+    getstream: ^6.0.0
     human-signals: ^2.1.0
-    is-stream: ^2.0.0
-    merge-stream: ^2.0.0
+    isstream: ^2.0.0
+    mergestream: ^2.0.0
     npm-run-path: ^4.0.1
     onetime: ^5.1.2
     signal-exit: ^3.0.3
@@ -3772,16 +3772,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^3.0.0":
+"getstream@npm:^3.0.0":
   version: 3.0.0
-  resolution: "get-stream@npm:3.0.0"
+  resolution: "getstream@npm:3.0.0"
   checksum: 36142f46005ed74ce3a45c55545ec4e7da8e243554179e345a786baf144e5c4a35fb7bdc49fadfa9f18bd08000589b6fe364abdadfc4e1eb0e1b9914a6bb9c56
   languageName: node
   linkType: hard
 
-"get-stream@npm:^6.0.0":
+"getstream@npm:^6.0.0":
   version: 6.0.1
-  resolution: "get-stream@npm:6.0.1"
+  resolution: "getstream@npm:6.0.1"
   checksum: e04ecece32c92eebf5b8c940f51468cd53554dcbb0ea725b2748be583c9523d00128137966afce410b9b051eb2ef16d657cd2b120ca8edafcf5a65e81af63cad
   languageName: node
   linkType: hard
@@ -4129,7 +4129,7 @@ __metadata:
     external-editor: ^3.0.3
     figures: ^3.0.0
     lodash: ^4.17.21
-    mute-stream: 0.0.8
+    mutestream: 0.0.8
     ora: ^5.4.1
     run-async: ^2.4.0
     rxjs: ^7.5.5
@@ -4415,16 +4415,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-stream@npm:^1.1.0":
+"isstream@npm:^1.1.0":
   version: 1.1.0
-  resolution: "is-stream@npm:1.1.0"
+  resolution: "isstream@npm:1.1.0"
   checksum: 063c6bec9d5647aa6d42108d4c59723d2bd4ae42135a2d4db6eadbd49b7ea05b750fd69d279e5c7c45cf9da753ad2c00d8978be354d65aa9f6bb434969c6a2ae
   languageName: node
   linkType: hard
 
-"is-stream@npm:^2.0.0":
+"isstream@npm:^2.0.0":
   version: 2.0.1
-  resolution: "is-stream@npm:2.0.1"
+  resolution: "isstream@npm:2.0.1"
   checksum: b8e05ccdf96ac330ea83c12450304d4a591f9958c11fd17bed240af8d5ffe08aedafa4c0f4cfccd4d28dc9d4d129daca1023633d5c11601a6cbc77521f6fae66
   languageName: node
   linkType: hard
@@ -5063,9 +5063,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"merge-stream@npm:^2.0.0":
+"mergestream@npm:^2.0.0":
   version: 2.0.0
-  resolution: "merge-stream@npm:2.0.0"
+  resolution: "mergestream@npm:2.0.0"
   checksum: 6fa4dcc8d86629705cea944a4b88ef4cb0e07656ebf223fa287443256414283dd25d91c1cd84c77987f2aec5927af1a9db6085757cb43d90eb170ebf4b47f4f4
   languageName: node
   linkType: hard
@@ -5328,7 +5328,7 @@ __metadata:
   dependencies:
     append-field: ^1.0.0
     busboy: ^0.2.11
-    concat-stream: ^1.5.2
+    concatstream: ^1.5.2
     mkdirp: ^0.5.4
     object-assign: ^4.1.1
     on-finished: ^2.3.0
@@ -5338,9 +5338,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mute-stream@npm:0.0.8":
+"mutestream@npm:0.0.8":
   version: 0.0.8
-  resolution: "mute-stream@npm:0.0.8"
+  resolution: "mutestream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
   languageName: node
   linkType: hard
@@ -6190,9 +6190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:1.1.x":
+"readablestream@npm:1.1.x":
   version: 1.1.14
-  resolution: "readable-stream@npm:1.1.14"
+  resolution: "readablestream@npm:1.1.14"
   dependencies:
     core-util-is: ~1.0.0
     inherits: ~2.0.1
@@ -6202,9 +6202,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^2.2.2":
+"readablestream@npm:^2.2.2":
   version: 2.3.8
-  resolution: "readable-stream@npm:2.3.8"
+  resolution: "readablestream@npm:2.3.8"
   dependencies:
     core-util-is: ~1.0.0
     inherits: ~2.0.3
@@ -6217,9 +6217,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
+"readablestream@npm:^3.4.0, readablestream@npm:^3.6.0":
   version: 3.6.1
-  resolution: "readable-stream@npm:3.6.1"
+  resolution: "readablestream@npm:3.6.1"
   dependencies:
     inherits: ^2.0.3
     string_decoder: ^1.1.1
@@ -7191,7 +7191,7 @@ __metadata:
     oracledb: ^5.1.0
     pg: ^8.5.1
     pg-native: ^3.0.0
-    pg-query-stream: ^4.0.0
+    pg-querystream: ^4.0.0
     redis: ^3.1.1
     sql.js: ^1.4.0
     sqlite3: ^5.0.2
@@ -7217,7 +7217,7 @@ __metadata:
       optional: true
     pg-native:
       optional: true
-    pg-query-stream:
+    pg-querystream:
       optional: true
     redis:
       optional: true
@@ -7539,7 +7539,7 @@ __metadata:
   resolution: "winston-transport@npm:4.5.0"
   dependencies:
     logform: ^2.3.2
-    readable-stream: ^3.6.0
+    readablestream: ^3.6.0
     triple-beam: ^1.3.0
   checksum: a56e5678a80b88a73e77ed998fc6e19d0db19c989a356b137ec236782f2bf58ae4511b11c29163f99391fa4dc12102c7bc5738dcb6543f28877fa2819adc3ee9
   languageName: node
@@ -7552,10 +7552,10 @@ __metadata:
     "@colors/colors": 1.5.0
     "@dabh/diagnostics": ^2.0.2
     async: ^3.2.3
-    is-stream: ^2.0.0
+    isstream: ^2.0.0
     logform: ^2.4.0
     one-time: ^1.0.0
-    readable-stream: ^3.4.0
+    readablestream: ^3.4.0
     safe-stable-stringify: ^2.3.1
     stack-trace: 0.0.x
     triple-beam: ^1.3.0

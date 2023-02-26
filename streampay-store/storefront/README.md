@@ -27,7 +27,7 @@ A decentralized e-Commerce
   </a>
 </p>
 
-> **Prerequisites**: To use the starter you should have a StreamPay server running locally on port 9000. Check out [streampay-commerce](https://github.com/stream-payment/-stream-commerce-platform) for a quick setup.
+> **Prerequisites**: To use the starter you should have a StreamPay server running locally on port 9000. Check out [streampay-commerce](https://github.com/stream-payment/stream-commerce-platform) for a quick setup.
 
 # Overview
 

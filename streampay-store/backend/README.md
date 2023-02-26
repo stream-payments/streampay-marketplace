@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Stream Commerce
+  StreamPay e-Commerce Platform
 </h1>
 <p align="center">
 This repo provides the skeleton to get you started with using <a href="https://github.com/stream-payment/stream-pay-marketplace">StreamPay</a>. Follow the steps below to get ready.
@@ -14,20 +14,20 @@ This repo provides the skeleton to get you started with using <a href="https://g
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
   </a>
   <a href="https://github.com/stream-payment/stream-pay-marketplace/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="Welcome!" />
   </a>
   <a href="https://discord.gg/vXgRRz4m">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
+  <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
+    <img src="https://img.shields.io/twitter/follow/streampay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
   <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/stream-payment/-stream-commerce-platform/tree/feat/deploy-heroku">
+    <a href="https://heroku.com/deploy?template=https://github.com/stream-payment/stream-commerce-platform/tree/feat/deploy-heroku">
       <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
   </p>
-</p>
+</p
 
 ## Prerequisites
 
@@ -49,14 +49,14 @@ This starter has minimal prerequisites and most of these will usually already be
   medusa new my-medusa-store
   ```
 - Run your project
-  ```
+  ``
   cd my-medusa-store
   medusa develop
   ```
 
-Your local Medusa server is now running on port **9000**.
+Your local StreamPay server is now running on port **9000**.
 
-### Seeding your Medusa store
+### Seeding your StreamPay store
 
 ---
 
@@ -107,7 +107,7 @@ This command seeds your database with some sample data to get you started, inclu
   docker-compose up
   ```
 
-Your local Medusa server is now running on port **9000**.
+Your local server is now running on port **9000**.
 
 ### Seeding your Medusa store with Docker
 
