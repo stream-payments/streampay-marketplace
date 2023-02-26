@@ -111,7 +111,7 @@ Your local server is now running on port **9000**.
 
 ### Seeding your Medusa store with Docker
 
----
+-
 
 To add seed data to your medusa store running with Docker, run this command in a seperate terminal:
 
@@ -137,7 +137,7 @@ After the seed script has run you will have the following things in you database
 Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further guides.
 
 <p>
-  <a href="https://www.medusa-commerce.com">
+  <a href="https://www.streampay.shop">
     Website
   </a> 
   |
@@ -145,7 +145,7 @@ Visit [docs.medusa-commerce.com](https://docs.medusa-commerce.com) for further g
     Notion Home
   </a>
   |
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
+  <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
     Twitter
   </a>
   |
