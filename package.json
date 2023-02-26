@@ -1,0 +1,25 @@
+{
+    "name": "streampay-marketplace",
+    "version": "1.0.0",
+    "description": "StreamPay Commerce Platform",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stream-payments/streampay-marketplace.git"
+    },
+    "keywords": [
+        "streampay",
+        "marketplace",
+        "platform",
+        "web3"
+    ],
+    "author": "Stream Protocol",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/stream-payments/streampay-marketplace/issues"
+    },
+    "homepage": "https://github.com/stream-payments/streampay-marketplace#readme"
+}
