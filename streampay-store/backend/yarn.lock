@@ -1729,7 +1729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/errors@npm:1.3.5":
+"@oclif/errors@npm:1.3.5, @oclif/errors@npm:^1.3.3":
   version: 1.3.5
   resolution: "@oclif/errors@npm:1.3.5"
   dependencies:
@@ -1742,7 +1742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oclif/errors@npm:1.3.6, @oclif/errors@npm:^1.3.3, @oclif/errors@npm:^1.3.5, @oclif/errors@npm:^1.3.6":
+"@oclif/errors@npm:1.3.6, @oclif/errors@npm:^1.3.5, @oclif/errors@npm:^1.3.6":
   version: 1.3.6
   resolution: "@oclif/errors@npm:1.3.6"
   dependencies:
@@ -1888,6 +1888,13 @@ __metadata:
   version: 1.3.2
   resolution: "@types/triple-beam@npm:1.3.2"
   checksum: dd7b4a563fb710abc992e5d59eac481bed9e303fada2e276e37b00be31c392e03300ee468e57761e616512872e77935f92472877d0704a19688d15a726cee17b
+  languageName: node
+  linkType: hard
+
+"@types/zen-observable@npm:0.8.3":
+  version: 0.8.3
+  resolution: "@types/zen-observable@npm:0.8.3"
+  checksum: 08c88354abcf03a2176a2ec32e07da1f25fdad94fbc2f419bea53d77deb04ad4759518b4fe3fc695e61065dd4bdf7c8bd26b5211a6cd5be2233872806bdee48d
   languageName: node
   linkType: hard
 
@@ -2038,7 +2045,7 @@ __metadata:
   resolution: "are-we-there-yet@npm:2.0.0"
   dependencies:
     delegates: ^1.0.0
-    readablestream: ^3.6.0
+    readable-stream: ^3.6.0
   checksum: 6c80b4fd04ecee6ba6e737e0b72a4b41bdc64b7d279edfc998678567ff583c8df27e27523bc789f2c99be603ffa9eaa612803da1d886962d2086e7ff6fa90c7c
   languageName: node
   linkType: hard
@@ -2048,7 +2055,7 @@ __metadata:
   resolution: "are-we-there-yet@npm:3.0.1"
   dependencies:
     delegates: ^1.0.0
-    readablestream: ^3.6.0
+    readable-stream: ^3.6.0
   checksum: 52590c24860fa7173bedeb69a4c05fb573473e860197f618b9a28432ee4379049336727ae3a1f9c4cb083114601c1140cee578376164d0e651217a9843f9fe83
   languageName: node
   linkType: hard
@@ -2185,8 +2192,8 @@ __metadata:
   linkType: hard
 
 "babel-preset-medusa-package@npm:^1.1.19":
-  version: 1.1.20
-  resolution: "babel-preset-medusa-package@npm:1.1.20"
+  version: 1.1.19
+  resolution: "babel-preset-medusa-package@npm:1.1.19"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.12.1
     "@babel/plugin-proposal-decorators": ^7.12.1
@@ -2200,7 +2207,7 @@ __metadata:
     core-js: ^3.7.0
   peerDependencies:
     "@babel/core": ^7.11.6
-  checksum: 4668aac61cfe93b2e669315ce10bd6eef63d8692b5adf7c778688195a45d0dd16c33cf60b0ad5d616652d78e5641ad4d0865f347d31d553725181b6b2eab4ab5
+  checksum: cafd7c73ae73f89ad44f4835cac1f654345bcb47427fed1d28edf6855da87c727c5319d0e2c0ac5fdc91dd8b4fa94692c8537ab41fec393790e83481102d9482
   languageName: node
   linkType: hard
 
@@ -2240,7 +2247,7 @@ __metadata:
   dependencies:
     buffer: ^5.5.0
     inherits: ^2.0.4
-    readablestream: ^3.4.0
+    readable-stream: ^3.4.0
   checksum: 9e8521fa7e83aa9427c6f8ccdcba6e8167ef30cc9a22df26effcc5ab682ef91d2cbc23a239f945d099289e4bbcfae7a192e9c28c84c6202e710a0dfec3722662
   languageName: node
   linkType: hard
@@ -2407,7 +2414,7 @@ __metadata:
   resolution: "busboy@npm:0.2.14"
   dependencies:
     dicer: 0.2.5
-    readablestream: 1.1.x
+    readable-stream: 1.1.x
   checksum: 9df9fca6d96dab9edd03f568bde31f215794e6fabd73c75d2b39a4be2e8b73a45121d987dea5db881f3fb499737c261b372106fe72d08b8db92afaed8d751165
   languageName: node
   linkType: hard
@@ -2772,14 +2779,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-name@npm:1.1.3":
+"color-name@npm:1.1.3, color-name@npm:^1.0.0":
   version: 1.1.3
   resolution: "color-name@npm:1.1.3"
   checksum: 09c5d3e33d2105850153b14466501f2bfb30324a2f76568a408763a3b7433b0e50e5b4ab1947868e65cb101bb7cb75029553f2c333b6d4b8138a73fcc133d69d
   languageName: node
   linkType: hard
 
-"color-name@npm:^1.0.0, color-name@npm:~1.1.4":
+"color-name@npm:~1.1.4":
   version: 1.1.4
   resolution: "color-name@npm:1.1.4"
   checksum: b0445859521eb4021cd0fb0cc1a75cecf67fceecae89b63f62b201cca8d345baf8b952c966862a9d9a2632987d4f6581f0ec8d957dfacece86f0a7919316f610
@@ -2839,13 +2846,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concatstream@npm:^1.5.2":
+"concat-stream@npm:^1.5.2":
   version: 1.6.2
-  resolution: "concatstream@npm:1.6.2"
+  resolution: "concat-stream@npm:1.6.2"
   dependencies:
     buffer-from: ^1.0.0
     inherits: ^2.0.3
-    readablestream: ^2.2.2
+    readable-stream: ^2.2.2
     typedarray: ^0.0.6
   checksum: 1ef77032cb4459dcd5187bd710d6fc962b067b64ec6a505810de3d2b8cc0605638551b42f8ec91edf6fcd26141b32ef19ad749239b58fae3aba99187adc32285
   languageName: node
@@ -3146,7 +3153,7 @@ __metadata:
   version: 0.2.5
   resolution: "dicer@npm:0.2.5"
   dependencies:
-    readablestream: 1.1.x
+    readable-stream: 1.1.x
     streamsearch: 0.1.2
   checksum: a6f0ce9ac5099c7ffeaec7398d711eea1dd803eb99036d0f05342e9ed46a4235a5ed0ea01ad5d6c785fdb0aae6d61d2722e6e64f9fabdfe39885f7f52eb635ee
   languageName: node
@@ -3174,6 +3181,13 @@ __metadata:
   dependencies:
     is-obj: ^2.0.0
   checksum: d5775790093c234ef4bfd5fbe40884ff7e6c87573e5339432870616331189f7f5d86575c5b5af2dcf0f61172990f4f734d07844b1f23482fff09e3c4bead05ea
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 
@@ -3378,8 +3392,8 @@ __metadata:
   resolution: "execa@npm:0.10.0"
   dependencies:
     cross-spawn: ^6.0.0
-    getstream: ^3.0.0
-    isstream: ^1.1.0
+    get-stream: ^3.0.0
+    is-stream: ^1.1.0
     npm-run-path: ^2.0.0
     p-finally: ^1.0.0
     signal-exit: ^3.0.0
@@ -3393,10 +3407,10 @@ __metadata:
   resolution: "execa@npm:5.1.1"
   dependencies:
     cross-spawn: ^7.0.3
-    getstream: ^6.0.0
+    get-stream: ^6.0.0
     human-signals: ^2.1.0
-    isstream: ^2.0.0
-    mergestream: ^2.0.0
+    is-stream: ^2.0.0
+    merge-stream: ^2.0.0
     npm-run-path: ^4.0.1
     onetime: ^5.1.2
     signal-exit: ^3.0.3
@@ -3772,16 +3786,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"getstream@npm:^3.0.0":
+"get-stream@npm:^3.0.0":
   version: 3.0.0
-  resolution: "getstream@npm:3.0.0"
+  resolution: "get-stream@npm:3.0.0"
   checksum: 36142f46005ed74ce3a45c55545ec4e7da8e243554179e345a786baf144e5c4a35fb7bdc49fadfa9f18bd08000589b6fe364abdadfc4e1eb0e1b9914a6bb9c56
   languageName: node
   linkType: hard
 
-"getstream@npm:^6.0.0":
+"get-stream@npm:^6.0.0":
   version: 6.0.1
-  resolution: "getstream@npm:6.0.1"
+  resolution: "get-stream@npm:6.0.1"
   checksum: e04ecece32c92eebf5b8c940f51468cd53554dcbb0ea725b2748be583c9523d00128137966afce410b9b051eb2ef16d657cd2b120ca8edafcf5a65e81af63cad
   languageName: node
   linkType: hard
@@ -4129,7 +4143,7 @@ __metadata:
     external-editor: ^3.0.3
     figures: ^3.0.0
     lodash: ^4.17.21
-    mutestream: 0.0.8
+    mute-stream: 0.0.8
     ora: ^5.4.1
     run-async: ^2.4.0
     rxjs: ^7.5.5
@@ -4415,16 +4429,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isstream@npm:^1.1.0":
+"is-stream@npm:^1.1.0":
   version: 1.1.0
-  resolution: "isstream@npm:1.1.0"
+  resolution: "is-stream@npm:1.1.0"
   checksum: 063c6bec9d5647aa6d42108d4c59723d2bd4ae42135a2d4db6eadbd49b7ea05b750fd69d279e5c7c45cf9da753ad2c00d8978be354d65aa9f6bb434969c6a2ae
   languageName: node
   linkType: hard
 
-"isstream@npm:^2.0.0":
+"is-stream@npm:^2.0.0":
   version: 2.0.1
-  resolution: "isstream@npm:2.0.1"
+  resolution: "is-stream@npm:2.0.1"
   checksum: b8e05ccdf96ac330ea83c12450304d4a591f9958c11fd17bed240af8d5ffe08aedafa4c0f4cfccd4d28dc9d4d129daca1023633d5c11601a6cbc77521f6fae66
   languageName: node
   linkType: hard
@@ -5063,9 +5077,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mergestream@npm:^2.0.0":
+"merge-stream@npm:^2.0.0":
   version: 2.0.0
-  resolution: "mergestream@npm:2.0.0"
+  resolution: "merge-stream@npm:2.0.0"
   checksum: 6fa4dcc8d86629705cea944a4b88ef4cb0e07656ebf223fa287443256414283dd25d91c1cd84c77987f2aec5927af1a9db6085757cb43d90eb170ebf4b47f4f4
   languageName: node
   linkType: hard
@@ -5308,14 +5322,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:2.1.2":
+"ms@npm:2.1.2, ms@npm:^2.0.0, ms@npm:^2.1.1":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
   checksum: 673cdb2c3133eb050c745908d8ce632ed2c02d85640e2edb3ace856a2266a813b30c613569bf3354fdf4ea7d1a1494add3bfa95e2713baa27d0c2c71fc44f58f
   languageName: node
   linkType: hard
 
-"ms@npm:2.1.3, ms@npm:^2.0.0, ms@npm:^2.1.1":
+"ms@npm:2.1.3":
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: aa92de608021b242401676e35cfa5aa42dd70cbdc082b916da7fb925c542173e36bce97ea3e804923fe92c0ad991434e4a38327e15a1b5b5f945d66df615ae6d
@@ -5328,7 +5342,7 @@ __metadata:
   dependencies:
     append-field: ^1.0.0
     busboy: ^0.2.11
-    concatstream: ^1.5.2
+    concat-stream: ^1.5.2
     mkdirp: ^0.5.4
     object-assign: ^4.1.1
     on-finished: ^2.3.0
@@ -5338,9 +5352,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mutestream@npm:0.0.8":
+"mute-stream@npm:0.0.8":
   version: 0.0.8
-  resolution: "mutestream@npm:0.0.8"
+  resolution: "mute-stream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
   languageName: node
   linkType: hard
@@ -6190,9 +6204,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readablestream@npm:1.1.x":
+"readable-stream@npm:1.1.x":
   version: 1.1.14
-  resolution: "readablestream@npm:1.1.14"
+  resolution: "readable-stream@npm:1.1.14"
   dependencies:
     core-util-is: ~1.0.0
     inherits: ~2.0.1
@@ -6202,9 +6216,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readablestream@npm:^2.2.2":
+"readable-stream@npm:^2.2.2":
   version: 2.3.8
-  resolution: "readablestream@npm:2.3.8"
+  resolution: "readable-stream@npm:2.3.8"
   dependencies:
     core-util-is: ~1.0.0
     inherits: ~2.0.3
@@ -6217,9 +6231,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readablestream@npm:^3.4.0, readablestream@npm:^3.6.0":
+"readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
   version: 3.6.1
-  resolution: "readablestream@npm:3.6.1"
+  resolution: "readable-stream@npm:3.6.1"
   dependencies:
     inherits: ^2.0.3
     string_decoder: ^1.1.1
@@ -6842,9 +6856,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"streampay-commerce@workspace:.":
+"streampay-ecommerce-backend@workspace:.":
   version: 0.0.0-use.local
-  resolution: "streampay-commerce@workspace:."
+  resolution: "streampay-ecommerce-backend@workspace:."
   dependencies:
     "@babel/cli": ^7.18.10
     "@babel/core": ^7.18.10
@@ -6852,6 +6866,7 @@ __metadata:
     "@medusajs/medusa": ^1.6.0
     "@medusajs/medusa-cli": ^1.3.3
     babel-preset-medusa-package: ^1.1.19
+    dotenv: ^16.0.3
     medusa-fulfillment-manual: ^1.1.31
     medusa-interfaces: ^1.3.3
     medusa-payment-manual: ^1.0.16
@@ -7191,7 +7206,7 @@ __metadata:
     oracledb: ^5.1.0
     pg: ^8.5.1
     pg-native: ^3.0.0
-    pg-querystream: ^4.0.0
+    pg-query-stream: ^4.0.0
     redis: ^3.1.1
     sql.js: ^1.4.0
     sqlite3: ^5.0.2
@@ -7217,7 +7232,7 @@ __metadata:
       optional: true
     pg-native:
       optional: true
-    pg-querystream:
+    pg-query-stream:
       optional: true
     redis:
       optional: true
@@ -7539,7 +7554,7 @@ __metadata:
   resolution: "winston-transport@npm:4.5.0"
   dependencies:
     logform: ^2.3.2
-    readablestream: ^3.6.0
+    readable-stream: ^3.6.0
     triple-beam: ^1.3.0
   checksum: a56e5678a80b88a73e77ed998fc6e19d0db19c989a356b137ec236782f2bf58ae4511b11c29163f99391fa4dc12102c7bc5738dcb6543f28877fa2819adc3ee9
   languageName: node
@@ -7552,10 +7567,10 @@ __metadata:
     "@colors/colors": 1.5.0
     "@dabh/diagnostics": ^2.0.2
     async: ^3.2.3
-    isstream: ^2.0.0
+    is-stream: ^2.0.0
     logform: ^2.4.0
     one-time: ^1.0.0
-    readablestream: ^3.4.0
+    readable-stream: ^3.4.0
     safe-stable-stringify: ^2.3.1
     stack-trace: 0.0.x
     triple-beam: ^1.3.0
@@ -7738,11 +7753,12 @@ __metadata:
   linkType: hard
 
 "zen-observable-ts@npm:^1.0.0":
-  version: 1.2.5
-  resolution: "zen-observable-ts@npm:1.2.5"
+  version: 1.1.0
+  resolution: "zen-observable-ts@npm:1.1.0"
   dependencies:
+    "@types/zen-observable": 0.8.3
     zen-observable: 0.8.15
-  checksum: 3b707b7a0239a9bc40f73ba71b27733a689a957c1f364fabb9fa9cbd7d04b7c2faf0d517bf17004e3ed3f4330ac613e84c0d32313e450ddaa046f3350af44541
+  checksum: 1772727f2c96af228c52b008260e1e4ae512782abc9d4f4a78d1a61913aa3b55ae672ad343ecf6895d9b968b5e3f4a41b5a317702cdc6cd5f6f93bc0dacf8103
   languageName: node
   linkType: hard
 

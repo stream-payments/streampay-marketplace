@@ -60,7 +60,7 @@ Your local StreamPay server is now running on port **9000**.
 
 ---
 
-To seed your medusa store run the following command:
+To seed your StreamPay store run the following command:
 
 ```
 medusa seed -f ./data/seed.json
@@ -109,11 +109,11 @@ This command seeds your database with some sample data to get you started, inclu
 
 Your local server is now running on port **9000**.
 
-### Seeding your Medusa store with Docker
+### Seeding your StreamPay store with Docker
 
 -
 
-To add seed data to your medusa store running with Docker, run this command in a seperate terminal:
+To add seed data to your StreamPay store running with Docker, run this command in a seperate terminal:
 
 ```
 docker exec medusa-server medusa seed -f ./data/seed.json
